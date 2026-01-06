@@ -1,0 +1,11 @@
+.primary {
+    color: orange !important;
+}
+
+.secondary {
+    color: black !important;
+}
+
+.font-xl {
+    font-size: 72px !important;
+}
