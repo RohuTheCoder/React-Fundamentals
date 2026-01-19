@@ -20,12 +20,14 @@ import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+import PureComp from './components/PureComp';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-       <Table />
+       <PureComp />
+       {/* <Table /> */}
        {/* <FragmentDemo /> */}
        {/* <LifecycleA /> */}
        {/* <Form /> */}
