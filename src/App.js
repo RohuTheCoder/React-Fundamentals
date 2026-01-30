@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import './App.css'
-import ClickCounter from './ClickCounter';
-import HoverCounter from './components/HoverCounter';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import HoverCounterTwo from './components/HoverCounterTwo';
 
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <ClickCounter name='Vishwas' />
-        <HoverCounter />
+        <ClickCounterTwo />
+        <HoverCounterTwo />
       </div>
     );
   }
