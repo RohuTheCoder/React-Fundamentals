@@ -9,9 +9,9 @@ class App extends React.Component {
     console.log('UserProvider in App:', UserProvider)
     return (
       <div className="App">
-      <UserProvider value="Vishwas">
-        <ComponentC />
-      </UserProvider>
+        <UserProvider value="Vishwas">
+          <ComponentC />
+        </UserProvider>
       </div>
     );
   }
